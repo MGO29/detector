@@ -68,7 +68,7 @@ def get_descriptors(img):
 
 
 def pattern_rec(img1,img2):
-	img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+	#img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 	kp1, des1 = get_descriptors(img1)
 
 
